@@ -70,22 +70,21 @@ nav{
 
 .container{
   margin: 20px;
-  display: inline-block;
+  display:flex;
 }
 
 .box1{
-  border: 20px;
+  /* border: 20px; */
   border-radius: 10px;
   width: 300px;
   height: 375px;
-  /* border-color: black; */
+  border-color: rgb(255, 255, 255);
   padding: 0px;
-  color: white;
   background-color: #08062e;
 }
 
 .box2{
-  width: 250px;
+  width: 230px;
   height: 150px;
   border-radius: 10px;
   position: absolute;
@@ -98,6 +97,70 @@ nav{
   margin: 25px 0px 0px 50px;
   font-family:  "Tangerine", cursive;
   font-size: 20px;
+  color: white;
+}
+
+.box1_name{
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  margin-top: 275px;
+  margin-left: 5px;
+  font-family: "Tangerine", cursive;
+  font-size: 14px;
+  color: cadetblue;
+}
+
+.box3{
+  /* border: 20px; */
+  border-radius: 10px;
+  width: 300px;
+  height: 375px;
+  border-color: rgb(255, 255, 255);
+  padding: 0px;
+  background-color: #08062e;
+}
+
+.box3_name{
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  margin-top: 275px;
+  margin-left: 5px;
+  font-family: "Tangerine", cursive;
+  font-size: 14px;
+  color: cadetblue;
+}
+
+.box4{
+  width: 230px;
+  height: 150px;
+  border-radius: 10px;
+  position: absolute;
+  background: rgb(221,249,255);
+  background: linear-gradient(112deg, rgba(221,249,255,1) 0%, rgba(103,34,145,1) 0%, rgba(15,15,201,1) 49%, rgba(25,237,227,1) 100%);
+  margin: 25px;
+}
+
+.box4_name{
+  margin: 25px 0px 0px 50px;
+  font-family:  "Tangerine", cursive;
+  font-size: 20px;
+  color: white;
+}
+
+.image_linkedin{
+  width: 30px;
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 45px;
+}
+
+.image_github{
+  width: 30px;
+  position: absolute;
+  margin-top: 165px;
+  margin-left: 100px;
 }
 
 *, *:before, *:after {

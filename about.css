@@ -1,5 +1,5 @@
 body{
-  margin-top: 180px;
+  margin-top: 120px;
   background: rgb(0, 0, 0);
   /* background: linear-gradient(52deg, rgba(35,35,36,1) 16%, rgba(15,15,54,1) 43%, rgba(60,77,91,1) 75%, rgba(221,249,255,1) 100%); */
   margin: none;
@@ -68,6 +68,12 @@ nav{
   display: none;
 }
 
+.team{
+  color: #1100ff;
+  text-align: center;
+  font-family:  "Tangerine", cursive;
+}
+
 .container{
   margin: 20px;
   display:flex;
@@ -81,6 +87,33 @@ nav{
   border-color: rgb(255, 255, 255);
   padding: 0px;
   background-color: #08062e;
+  margin-left: 300px;
+  transition-duration: 0.4s;
+}
+
+.box1:hover{
+  box-shadow: 5px 5px 5px 5px rgb(60, 96, 108);
+  transform: translateY(-7px);
+}
+
+.box1_name{
+  padding: 0px;
+  margin: 0px;
+  position: absolute;
+  margin-top: 260px;
+  margin-left: 5px;
+  font-family: "Tangerine", cursive;
+  font-size: 14px;
+  color: cadetblue;
+}
+
+.vikas{
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 80px;
+  margin-left: 55px;
+  z-index: 2;
 }
 
 .box2{
@@ -93,22 +126,16 @@ nav{
   margin: 25px;
 }
 
+.box2:hover{
+  background: rgb(221,249,255);
+  background: linear-gradient(112deg, rgba(221,249,255,1) 0%, rgba(25,237,227,1) 18%, rgba(15,15,201,1) 56%, rgba(103,34,145,1) 100%);
+}
+
 .box2_name{
   margin: 25px 0px 0px 50px;
   font-family:  "Tangerine", cursive;
   font-size: 20px;
   color: white;
-}
-
-.box1_name{
-  padding: 0px;
-  margin: 0px;
-  position: absolute;
-  margin-top: 275px;
-  margin-left: 5px;
-  font-family: "Tangerine", cursive;
-  font-size: 14px;
-  color: cadetblue;
 }
 
 .box3{
@@ -119,17 +146,33 @@ nav{
   border-color: rgb(255, 255, 255);
   padding: 0px;
   background-color: #08062e;
+  margin-left: 250px;
+  transition-duration: 0.4s;
+}
+
+.box3:hover{
+  box-shadow: 5px 5px 5px 5px rgb(60, 96, 108);
+  transform: translateY(-7px);
 }
 
 .box3_name{
   padding: 0px;
   margin: 0px;
   position: absolute;
-  margin-top: 275px;
-  margin-left: 5px;
+  margin-top: 260px;
+  margin-left: 100px;
   font-family: "Tangerine", cursive;
   font-size: 14px;
   color: cadetblue;
+}
+
+.om{
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 90px;
+  margin-left: 50px;
+  z-index: 2;
 }
 
 .box4{
@@ -140,6 +183,11 @@ nav{
   background: rgb(221,249,255);
   background: linear-gradient(112deg, rgba(221,249,255,1) 0%, rgba(103,34,145,1) 0%, rgba(15,15,201,1) 49%, rgba(25,237,227,1) 100%);
   margin: 25px;
+}
+
+.box4:hover{
+  background: rgb(221,249,255);
+  background: linear-gradient(112deg, rgba(221,249,255,1) 0%, rgba(25,237,227,1) 18%, rgba(15,15,201,1) 56%, rgba(103,34,145,1) 100%);
 }
 
 .box4_name{
@@ -173,7 +221,7 @@ nav{
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
   color: #2f2f2f;
-  background-color: rgb(81, 81, 82);
+  background-color: rgb(94, 94, 244);
   border-top: 1px solid #e5e5e5;
 }
 
@@ -215,7 +263,7 @@ nav{
   justify-content: center;
   height: 36px;
   max-width: max-content;
-  background-color: rgb(33, 33, 33, 0.07);
+  background-color: rgba(34, 0, 255, 0.462);
   border-radius: 100px;
   color: #2f2f2f;
   line-height: 0;

@@ -1,0 +1,245 @@
+.topnav {
+    background: linear-gradient(52deg, rgba(221,249,255,1) 0%, rgba(60,77,91,1) 0%, rgba(22,22,108,1) 38%, rgba(11,11,41,1) 74%);  right: 0px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  
+  nav{
+    position: fixed;
+    left: 0px;
+    top: 40px;
+    right: 0px;
+    margin: 0px;
+  }
+  
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #2200fffb;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-left: 10px;
+    transition: 1s;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #1901b9;
+    color: black;
+  }
+  
+  /* Add an active class to highlight the current page */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  /* Hide the link that should open and close the topnav on small screens */
+  .topnav .icon {
+    display: none;
+  }
+  
+  .name{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+    text-align: center;
+    /* background: rgb(221,249,255);
+    background: rgb(221,249,255);
+    background: rgb(221,249,255); */
+    background: linear-gradient(52deg, rgba(221,249,255,1) 0%, rgba(60,77,91,1) 0%, rgba(22,22,108,1) 38%, rgba(11,11,41,1) 74%);  right: 0px;
+    color: white;
+    margin: none;
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 300;
+  }
+
+  h2{
+    font-family: "Cinzel Decorative", serif;
+  }
+  
+  body{
+    margin-top: 180px;
+    background: rgba(4, 4, 112, 0.979);
+    /* background: linear-gradient(52deg, rgba(35,35,36,1) 16%, rgba(15,15,54,1) 43%, rgba(60,77,91,1) 75%, rgba(221,249,255,1) 100%); */
+    margin: none;
+  }
+  .container{
+    display: flex;
+}
+
+.video{
+  margin-left: 10px;
+}
+
+.theo1{
+    font-family:  "Cinzel Decorative", serif;
+    width: 600px;
+    font-size: 19px;
+    font-weight: 700;
+    color: #26a1ff;
+    margin-left: 100px;
+}
+  
+.play{
+    display: flex;
+    width: 150px;
+    height: 75px;
+    background-color: #030240;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    text-align: center;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.play1{
+    margin-top: 25px;
+    margin-left: 35px;
+    font-family:  "Cinzel Decorative", serif;
+    color: antiquewhite;
+}
+
+.play:hover {
+    background-color: #e52e2e;
+    box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+
+  *, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  
+  .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 30px 30px 20px 30px;
+    color: #000000;
+    background-color: rgb(94, 94, 244);
+    border-top: 1px solid #000000;
+  }
+  
+  .footer > * {
+    flex:  1 100%;
+  }
+  
+  .footer__addr {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+  }
+  
+  /* .footer__logo {
+    font-family: 'Pacifico', cursive;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: 1.5rem;
+  } */
+  
+  .footer__addr h2 {
+    margin-top: 1.3em;
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .nav__title {
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  .footer address {
+    font-style: normal;
+    color: #000000;
+  }
+  
+  .footer__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    max-width: max-content;
+    background-color: rgb(34, 0, 255);
+    border-radius: 100px;
+    color: #030240;
+    line-height: 0;
+    margin: 0.6em 0;
+    font-size: 1rem;
+    padding: 0 1.3em;
+  }
+  
+  .footer ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .footer li {
+    line-height: 20px;
+  }
+  
+  .footer__nav {
+    display: flex;
+      flex-flow: row wrap;
+  }
+  
+  .footer__nav > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+  }
+  
+  .nav__ul a {
+    color: #000000;
+  }
+  
+  .nav__ul--extra {
+    column-count: 2;
+    column-gap: 30px;
+  }
+  
+  /* .legal {
+    display: flex;
+    flex-wrap: wrap;
+    color: #999;
+  } 
+  .legal__links {
+    display: flex;
+    align-items: center;
+  } */
+  
+  .heart {
+    color: #000000;
+  }
+  
+  @media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+    
+    .nav__item--extra {
+      flex-grow: 2;
+    }
+    
+    .footer__addr {
+      flex: 1 0px;
+    }
+    
+    .footer__nav {
+      flex: 2 0px;
+    }
+  }

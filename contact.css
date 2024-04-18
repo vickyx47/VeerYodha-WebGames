@@ -49,11 +49,12 @@ nav{
   font-size: 17px;
   margin-right: 10px;
   margin-left: 10px;
+  transition: 1s;
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #1901b9;
   color: black;
 }
 
@@ -107,6 +108,7 @@ nav{
 
 .container3{
   display: flex;
+  color: #ddd;
 }
 
 .what{
@@ -125,7 +127,7 @@ nav{
   height: 250px;
   background-color: rgba(8, 8, 163, 0.832);
   margin-bottom: 30px;
-  margin-left: 90px;
+  margin-left: 250px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px 5px rgba(5, 18, 22, 0.841);
   /* animation-duration: 0.4s; */
@@ -136,6 +138,39 @@ nav{
   transform: translateY(-7px);
   box-shadow: 10px 10px 10px 10px rgba(5, 18, 22, 0.841);
 }
+
+.asus1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36PX;
+}
+
+.asus2{
+  /* padding-left: 10px;
+  padding-top: 10px; */
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.Emailus{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgba(13, 6, 64, 0.977);
+  border-radius: 100px;
+  color: #000dff;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+  margin-left: 50px;
+}
+
 
 .call{
   width: 230px;
@@ -150,6 +185,38 @@ nav{
 .call:hover{
   transform: translateY(-7px);
   box-shadow: 10px 10px 10px 10px rgba(5, 18, 22, 0.841);
+}
+
+.caus1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36PX;
+}
+
+.caus2{
+  /* padding-left: 10px;
+  padding-top: 10px; */
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.caus3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 36px;
+  max-width: max-content;
+  background-color: rgba(13, 6, 64, 0.977);
+  border-radius: 100px;
+  color: #ffffff;
+  line-height: 0;
+  margin: 0.6em 0;
+  font-size: 1rem;
+  padding: 0 1.3em;
+  margin-left: 30px;
 }
 
 .find{
@@ -167,6 +234,26 @@ nav{
   box-shadow: 10px 10px 10px 10px rgba(5, 18, 22, 0.841);
 }
 
+.fius1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36PX;
+}
+
+.fius2{
+  /* padding-left: 10px;
+  padding-top: 10px; */
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.map{
+  margin-left: 10px;
+}
+
 .instagram{
   width: 230px;
   height: 250px;
@@ -182,26 +269,31 @@ nav{
   box-shadow: 10px 10px 10px 10px rgba(5, 18, 22, 0.841);
 }
 
-.speak{
-  width: 230px;
-  height: 250px;
-  background-color: rgba(8, 8, 163, 0.832);  margin-bottom: 30px;
-  margin-left: 30px;
-  border-radius: 10px;
-  box-shadow: 10px 10px 10px 5px rgba(5, 18, 22, 0.841);
-  transition: 0.4s;
+.inus1{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 36PX;
 }
 
-.speak:hover{
-  transform: translateY(-7px);
-  box-shadow: 10px 10px 10px 10px rgba(5, 18, 22, 0.841);
+.inus2{
+  /* padding-left: 10px;
+  padding-top: 10px; */
+  margin-top: 20px;
+  /* margin-left: 10px; */
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.qr{
+  margin-left: 60px;
 }
 
 .footer {
   display: flex;
   flex-flow: row wrap;
   padding: 30px 30px 20px 30px;
-  color: #2f2f2f;
+  color: #000000;
   background-color: rgb(94, 94, 244);
   border-top: 1px solid #e5e5e5;
 }
@@ -235,7 +327,7 @@ nav{
 
 .footer address {
   font-style: normal;
-  color: #999;
+  color: #000000;
 }
 
 .footer__btn {
@@ -246,7 +338,7 @@ nav{
   max-width: max-content;
   background-color: rgba(34, 0, 255, 0.462);
   border-radius: 100px;
-  color: #2f2f2f;
+  color: #000000;
   line-height: 0;
   margin: 0.6em 0;
   font-size: 1rem;
@@ -273,7 +365,7 @@ nav{
 }
 
 .nav__ul a {
-  color: #999;
+  color: #000000;
 }
 
 .nav__ul--extra {
@@ -292,7 +384,7 @@ nav{
 } */
 
 .heart {
-  color: #2f2f2f;
+  color: #000000;
 }
 
 @media screen and (min-width: 24.375em) {
